@@ -57,4 +57,7 @@ Most of the residual plots for all ensembles looked similar, with randomly scatt
 - And some clipping of the predicted scores was explored. (if model predicts too high or too low values based on distribution of target in train set, these values were clipped)
 - Another interesting thing was to analyse the true vs pred scatter plot to comprehend that model slightly predicts lower values than the true.( the scatter graph was slightly shifted below x=y line) Manually adding thresholds of values to target variable was explored!
 
+Something to try: 
+In data dictionary we have 9 variables, corresponding to information about debit or credit card finances of each month, april may and june, which have sequential nature. And rest of the 17 variables, like gender, region code are non-sequential. This problem could be modelled as below with either very small RNN(number of hidden units), cause we have small dataset with around 44 features, so we don't want RNNs to literally remember every training sample. Had it been larger dataset this architecture, could be one of the most appropriate architectures to model this sequential nature in the problem!
+![rnn architecture](url)
 
