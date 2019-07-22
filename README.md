@@ -1,7 +1,7 @@
 # -AmExpert-decipHER-
 My solution for American Express and Analytics Vidhya presented “AmExpert decipHER – Hackathon, predicting credit card spend using advanced regression techniques.
 
-This was my first attempt and in the direction not to just score better on the leaderboard with many many ensembles at the cost of complexity but to generate and elegant, neat and simple model to predict the target variable, considering the trade off between resources and the performance metric, as in production systems. :)
+This was my first attempt and in the direction not to just score better on the leaderboard with many many ensembles at the cost of complexity but to generate an elegant, neat and simple model to predict the target variable, considering the trade off between resources and the performance metric, as in production systems. :)
 
 
 Quick overview of my approach and analysis
