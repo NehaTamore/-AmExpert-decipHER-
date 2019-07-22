@@ -59,5 +59,7 @@ Most of the residual plots for all ensembles looked similar, with randomly scatt
 
 Something to try: 
 In data dictionary we have 9 variables, corresponding to information about debit or credit card finances of each month, april may and june, which have sequential nature. And rest of the 17 variables, like gender, region code are non-sequential. This problem could be modelled as below with either very small RNN(number of hidden units), cause we have small dataset with around 44 features, so we don't want RNNs to literally remember every training sample. Had it been larger dataset this architecture, could be one of the most appropriate architectures to model this sequential nature in the problem!
+
+
 ![rnn architecture](https://github.com/NehaTamore/-AmExpert-decipHER-/blob/master/Untitled%20Diagram%20(2).jpg)
 
